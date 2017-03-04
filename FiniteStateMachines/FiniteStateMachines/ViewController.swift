@@ -9,7 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    let viewModel = ViewModel()
 
+    @IBOutlet weak var accessColorView: UIView!
+    @IBOutlet weak var statusLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +24,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func pushTurnstyleButtonAction(_ sender: Any) {
+        viewModel.handlePush()
+    }
+    
+    
+    @IBAction func instertCoinButtonAction(_ sender: Any) {
+        viewModel.handleInsertCoin()
+    }
+   
 
 }
 

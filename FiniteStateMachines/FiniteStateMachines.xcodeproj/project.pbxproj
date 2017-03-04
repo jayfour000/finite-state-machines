@@ -13,6 +13,8 @@
 		EE6BA6AA1E6B249D004DD754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6BA6A91E6B249D004DD754 /* Assets.xcassets */; };
 		EE6BA6AD1E6B249D004DD754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6BA6AB1E6B249D004DD754 /* LaunchScreen.storyboard */; };
 		EE6BA6B81E6B249E004DD754 /* FiniteStateMachinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6BA6B71E6B249E004DD754 /* FiniteStateMachinesTests.swift */; };
+		EE6BA6CA1E6B2735004DD754 /* turnstyle_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE6BA6C91E6B2735004DD754 /* turnstyle_photo.jpg */; };
+		EE6BA6CC1E6B29AF004DD754 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6BA6CB1E6B29AF004DD754 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		EE6BA6B31E6B249E004DD754 /* FiniteStateMachinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiniteStateMachinesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6BA6B71E6B249E004DD754 /* FiniteStateMachinesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiniteStateMachinesTests.swift; sourceTree = "<group>"; };
 		EE6BA6B91E6B249E004DD754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6BA6C91E6B2735004DD754 /* turnstyle_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turnstyle_photo.jpg; sourceTree = "<group>"; };
+		EE6BA6CB1E6B29AF004DD754 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		EE6BA6A11E6B249D004DD754 /* FiniteStateMachines */ = {
 			isa = PBXGroup;
 			children = (
+				EE6BA6C81E6B2735004DD754 /* Assets */,
 				EE6BA6A21E6B249D004DD754 /* AppDelegate.swift */,
 				EE6BA6A41E6B249D004DD754 /* ViewController.swift */,
 				EE6BA6A61E6B249D004DD754 /* Main.storyboard */,
 				EE6BA6A91E6B249D004DD754 /* Assets.xcassets */,
 				EE6BA6AB1E6B249D004DD754 /* LaunchScreen.storyboard */,
 				EE6BA6AE1E6B249D004DD754 /* Info.plist */,
+				EE6BA6CB1E6B29AF004DD754 /* ViewModel.swift */,
 			);
 			path = FiniteStateMachines;
 			sourceTree = "<group>";
@@ -94,6 +100,14 @@
 				EE6BA6B91E6B249E004DD754 /* Info.plist */,
 			);
 			path = FiniteStateMachinesTests;
+			sourceTree = "<group>";
+		};
+		EE6BA6C81E6B2735004DD754 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EE6BA6C91E6B2735004DD754 /* turnstyle_photo.jpg */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE6BA6AD1E6B249D004DD754 /* LaunchScreen.storyboard in Resources */,
+				EE6BA6CA1E6B2735004DD754 /* turnstyle_photo.jpg in Resources */,
 				EE6BA6AA1E6B249D004DD754 /* Assets.xcassets in Resources */,
 				EE6BA6A81E6B249D004DD754 /* Main.storyboard in Resources */,
 			);
@@ -202,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE6BA6A51E6B249D004DD754 /* ViewController.swift in Sources */,
+				EE6BA6CC1E6B29AF004DD754 /* ViewModel.swift in Sources */,
 				EE6BA6A31E6B249D004DD754 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
