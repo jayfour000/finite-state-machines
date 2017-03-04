@@ -16,7 +16,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        viewModel.statusUpdate.subscribe(on: self) { (statusMessage) in
+            self.statusLabel.text = statusMessage
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {

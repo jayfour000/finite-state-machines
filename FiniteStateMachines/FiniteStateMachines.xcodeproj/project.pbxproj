@@ -116,11 +116,11 @@
 				EE6BA6C81E6B2735004DD754 /* Assets */,
 				EE6BA6A21E6B249D004DD754 /* AppDelegate.swift */,
 				EE6BA6A41E6B249D004DD754 /* ViewController.swift */,
+				EE6BA6CB1E6B29AF004DD754 /* ViewModel.swift */,
 				EE6BA6A61E6B249D004DD754 /* Main.storyboard */,
 				EE6BA6A91E6B249D004DD754 /* Assets.xcassets */,
 				EE6BA6AB1E6B249D004DD754 /* LaunchScreen.storyboard */,
 				EE6BA6AE1E6B249D004DD754 /* Info.plist */,
-				EE6BA6CB1E6B29AF004DD754 /* ViewModel.swift */,
 			);
 			path = FiniteStateMachines;
 			sourceTree = "<group>";
@@ -561,6 +561,7 @@
 				EE6BA6BE1E6B249E004DD754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE6BA6BF1E6B249E004DD754 /* Build configuration list for PBXNativeTarget "FiniteStateMachinesTests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +570,7 @@
 				EE6BA6C11E6B249E004DD754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
